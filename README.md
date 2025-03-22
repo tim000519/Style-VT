@@ -1,9 +1,3 @@
-## Substitution Chord Table
-
-![sub1](https://github.com/user-attachments/assets/46266d75-6b27-4c07-a1d5-2e5819dcfc71)
-![image](https://github.com/user-attachments/assets/8c474d1c-8ff4-4259-a2a3-42e49dba5969)
-
-
 ## Style-VT: Style Conditioned Chord Generation by Variational Transformer with Chord Substitution Theory
 
 Recent deep learning approaches for melody harmonization have demonstrated strong performance in generating appropriate chords for melodies. However, many of these approaches have not attempted to control chord progressions to adjust the mood of the music, which can significantly influence the music style even for an identical melody. We propose the Chord Generation Variational Transformer model (CGVT), which can capture the structure of chord progressions commonly used in specific genres, thus enabling the generation of chord progressions suited to the style of the desired genre.
@@ -46,3 +40,8 @@ python -m test [dataset] [song_ind] [start_point] [model_name] [device_num] [alp
 outputs:
 1) prints out quantitative metric results -> CHE, CC, CTR, PCS, CTD, MTD / LD, TPSD, DICD 
 2) saves generated(sampled) MIDI / GT MIDI (saved filename ex: ./Sampled__*.mid, ./GT__*.mid)
+
+## Substitution Chord Table
+
+![sub1](https://github.com/user-attachments/assets/46266d75-6b27-4c07-a1d5-2e5819dcfc71)
+![image](https://github.com/user-attachments/assets/8c474d1c-8ff4-4259-a2a3-42e49dba5969)
